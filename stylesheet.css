@@ -1,0 +1,118 @@
+html, body {
+	font-family: "Courier New", Sans-serif
+}
+
+#holderBox {
+	width: 60%;
+	height: 600px;
+	background-color: lightblue;
+	margin: auto
+} 
+
+#sidebar {
+	width: 30%;
+	height: 600px;
+	background-color: pink;
+	margin: auto;
+	float: left
+}
+
+#tipsBox{
+	border-style: solid;
+	border-color: gray;
+	width: 100%;
+	height: 200px;
+	background-color: lightgray;
+	margin: auto;
+	float: left;
+}
+
+#embarrassmentBox{
+	border-style: solid;
+	border-color: gray;
+	border-top-style: hidden;
+	width: 100%;
+	height: 200px;
+	background-color: lightgray;
+	margin: auto;
+	float: left;
+}
+
+#embarrassmentMeter {
+	width: 75%;
+	height: 25px;
+	background-color: lightgreen;
+	margin: auto;
+}
+
+#embarrassmentMeterFilling{
+	width: 0%;
+	height: 25px;
+	background-color: red;
+	float: left
+}
+
+#roomsBox {
+	border-style: solid;
+	border-color: gray;
+	border-top-style: hidden;
+	width: 100%;
+	height: 200px;
+	background-color: lightyellow;
+	margin: auto;
+	float: left;
+}
+
+#conversationBox {
+	border-style: solid;
+	border-color: gray;
+	width: 69%;
+	height: 606px;
+	background-color: pink;
+	float: right
+}
+
+#textDisplayBox {
+	width: 100%;
+	height: 90%;
+	background-color: lightblue
+}
+
+#displayedText {
+	font-family: "Courier New", Sans-serif;
+	margin-top: 0px;
+	padding: 15%;
+	text-align: center;
+}
+
+#roomTitle{
+	margin: 0px
+}
+
+#playerInputBox {
+	width: 100%;
+	height: 10%;
+	background-color: lightyellow;
+}
+
+#promptPara{
+	float:left;
+	width: 20%;
+	margin-top: 10px;
+	padding-left: 3px;
+	text-align: center
+}
+
+#userInput{
+	float:left;
+	width: 65%;
+	margin-top: 10px;
+	height: 40px;
+}
+
+#userInputButton{
+	float: left;
+	width: 15%;
+	margin: 16px !important
+}
+

@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>
+Politeness Quest
+</title>
+</head>
+<body>
+<div id="holderBox">
+	<div id="sidebar">
+		<div id="tipsBox">
+		<center>
+		<br> <br>
+		Respond in Hiragana and Katakana. Click the hint button when you're not sure what to say. <br> <br>
+		<button id="hintButton" type="button" onclick="hintButtonClicked()">
+		Hint!
+		</button>
+		<br> <br>
+		<button id="vocabButton" type="button" onclick="vocabButtonClicked()">
+		Useful vocabulary!
+		</button>
+		<br><br>
+		
+		</center>
+		</div>
+		<div id="embarrassmentBox">
+			<center>
+			<br> <br> Embarassment: <br> <br>
+			<div id="embarrassmentMeter">
+				<div id="embarrassmentMeterFilling">
+				</div>
+			</div>
+			<br>
+			<button id="skipButton" type="button" onclick="skipClicked()">
+			skip a question
+			</button>
+			<br> <br>
+			Warning: this will embarrass you!
+			</center>
+		</div>
+		<div id="roomsBox">
+			<center>
+			<br> <br>
+			Where would you like to go?
+			<br> <br>
+			<button id="yourOfficeButton" type="button" onclick="yourOfficeClicked()" disabled>
+			your office
+			</button>
+			<br> <br>
+			<button id="deansOfficeButton" type="button" onclick="deansOfficeClicked()" disabled>
+			the Dean's office
+			</button>
+			<br> <br>
+			<button id="goHomeButton" type="button" onclick="goHomeClicked()" disabled>
+			home
+			</button>
+			</center>
+		</div>
+	</div>
+	<div id="conversationBox">
+		<div id="textDisplayBox">
+			<!--<h1 id="roomTitle">
+				your office
+			</h1>-->
+			<p id="displayedText">
+				blah blah
+			</p>
+		</div>
+		<div id="playerInputBox">
+			<p id="promptPara"> What do you say? </p>
+			<input id="userInput" onkeypress="wasEnterPressed(event)">
+			</input>
+			<button id="enterInputButton" type="button" onclick="game.play()" style="margin: 1%; margin-top: 10px; height: 40px;">
+				はなします
+			</button>
+		</div>
+	</div>
+</div>
+</body>
+<script src="PolitenessQuest0.7.js"> </script>
+</html>
